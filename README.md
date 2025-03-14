@@ -1,1 +1,7 @@
-# nhinguyen.github.io
+# Data Scientist
+
+### Education
+Data Science
+
+### Work Experience
+Working Student
