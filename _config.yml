@@ -3,3 +3,14 @@ title: Nhi Nguyen
 #description
 show_downloads: true
 theme: jekyll-theme-minimal
+
+# Navigation Links
+defaults:
+  - scope:
+      path: "en"
+    values:
+      lang: "en"
+  - scope:
+      path: "de"
+    values:
+      lang: "de"
