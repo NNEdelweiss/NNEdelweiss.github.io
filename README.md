@@ -1,90 +1,67 @@
-# Nhi Nguyen
+# Nhi Nguyen  
+## Data Scientist (M.Sc)   
 
-## Data Science (M.Sc)
-Hochschule Darmstadt, Germany  
-Graduation Grade: 1.9 (Expected 2025)
-
----
-
-## 📌 About Me
-I am a data scientist with a strong background in psychology and market research. My expertise spans data analysis, machine learning, deep learning, and interactive dashboard development. Passionate about deriving insights from data, I leverage statistical tools and programming to solve complex problems and drive decision-making.
+📍 Darmstadt, Deutschland  
+📧 [Nhi.nguyenpb@gmail.com](mailto:Nhi.nguyenpb@gmail.com)  
 
 ---
 
-## 🎓 Education
-### Hochschule Darmstadt, Germany  
-**M.Sc Data Science** (2022 - 2025)  
-Graduation Grade: 1.9
-
-### TU Darmstadt, Germany  
-**B.Sc Psychology** (2016 - 2021)  
-Graduation Grade: 2.1
-
-### Studienkolleg TU Darmstadt, Germany  
-**Social Sciences Preparatory Course** (2015 - 2016)  
-Graduation Grade: 1.5
+## 📌 Über mich  
+Ich bin eine leidenschaftliche Data Scientist mit einem Hintergrund in Psychologie und Data Science. Meine Erfahrungen umfassen statistische Analysen, maschinelles Lernen und die Entwicklung interaktiver Dashboards.
 
 ---
 
-## 💼 Work Experience
-### **Infraserv Höchst** (07.2023 - 12.2024)  
-**Working Student - Data Science**  
-- Analyzing and visualizing data  
-- Developing interactive dashboards using R Shiny  
-- Performing time series analysis and modeling  
-- Creating an automated document verification app integrated with ChatGPT API  
-- Supporting digital twin development for process optimization
 
-### **The Foodservice-Team of npdgroup Deutschland GmbH** (09.2021 - 06.2023)  
-**Intern & Working Student - Market Research**  
-- Conducted market research and data collection  
-- Performed statistical analyses using Excel  
-- Developed result presentations with actionable insights  
-- Provided ad-hoc analysis for business decisions  
+## 📝 Projekte  
+### **Masterarbeit: Deep Learning in EEG Classification**  
+- Datenvorverarbeitung mit **NumPy, Pandas, Scikit-learn**  
+- Implementierung von **Deep Neural Networks**  
+- Training & Evaluierung von Modellen  
+- Visualisierung der Ergebnisse  
 
-### **Research Internship - Institute of Psychology, TU Darmstadt** (04.2019 - 08.2019)  
-- Planned and implemented psychological studies  
-- Processed data using R  
-- Developed diagnostic measurement instruments
+### **DataScience-Projekt** 
+**Produktclustering und Preismodellierung bei Tankstellen**
+Im Rahmen dieses Projekts entwickelten wir datengetriebene Lösungen zur Optimierung der **Produkterfassung** und **Preismodellierung** an **Tankstellen**. Durch **Produktclustering** mittels **Konfidenzintervallen** reduzierten wir den Erfassungsaufwand um durchschnittlich **41,1%**, während wir die Genauigkeit beibehielten. Für die **Preismodellierung** nutzten wir **Gradient Boosting** und **SHAP-Werte**, um die Preisbildung zu analysieren und zu erklären, und erzielten eine signifikante Verbesserung gegenüber linearen Modellen. **Datenvorverarbeitung** und **Feature Engineering**, einschließlich der Integration von **Geodaten**, waren entscheidend für den Erfolg. Die Ergebnisse ermöglichen es der Firma, Kosten zu senken, wertvolle Einblicke in die Preisgestaltung zu gewinnen und ihre Prozesse zu optimieren. 
 
----
+**Skills**: Python, Pandas, Scikit-learn, XGBoost, SHAP, statistische Analyse, Datenvisualisierung, Projektmanagement.
 
-## 📊 Research & Projects
-### **Master Thesis (06.2024 - 12.2024)**  
-**Deep Learning in EEG Classification**  
-- Data preprocessing using NumPy, Pandas, and Scikit-learn  
-- Implemented deep neural networks for EEG classification  
-- Trained and evaluated models for predictive analysis  
-- Visualized results and developed Ridge Regression models
+### **Computer Vision** 
+**Qualitätssicherung von Inbusschlüsseln**
+In diesem Projekt wurde ein Computer-Vision-Programm entwickelt, das automatisch die Maße von Inbusschlüsseln erfasst und im Bild ergänzt. Ziel war es, eine kostengünstige und präzise Alternative zur manuellen Qualitätskontrolle bereitzustellen. Das System erkennt die Werkzeuge zuverlässig und misst deren Abmessungen in Millimetern. Es ist robust gegenüber leichten Schatten, Bildrauschen und Variationen in der Beleuchtung. Die Genauigkeit der Messung wurde anhand realer Objekte überprüft und zeigte eine geringe Abweichung zu manuellen Messungen.
 
-### **Bachelor Thesis (03.2021 - 07.2021)**  
-**Internet User Behavior**  
-- Developed a website using JavaScript  
-- Conducted data analysis with R
+![Ausgemessene Inbusschlüsseln](./img/cv_inbusschlüsseln.png)
 
----
+Skills: Python (NumPy, Pandas, OpenCV, Matplotlib), Feature Extraction, Bildverarbeitung, Objekterkennung, Datenauswertung.
 
-## 🛠 Technical Skills
-- **Programming & Data Science:** Python, R, SQL, Shell Programming  
-- **Statistical Analysis:** R, SPSS  
-- **Database Management:** MySQL, PostgreSQL, MongoDB, Couchbase  
-- **Machine Learning & AI:** TensorFlow, Keras, PyTorch, Scikit-Learn  
-- **Data Visualization & Reporting:** Tableau, Matplotlib, ggplot2  
-- **Big Data Technologies:** Hadoop, Spark  
-- **Interactive Dashboards:** R Shiny, Streamlit  
-- **Collaboration Tools:** GitHub, GitLab  
-- **Time Series Analysis:** R, Python  
-- **Prompt Engineering**  
-- **Computer Vision, NLP, Deep Learning**
+**Deep Learning zur automatisierten Vogelartenklassifikation**
+In diesem Projekt wurde ein Convolutional Neural Network (CNN) zur Klassifikation von 524 Vogelarten entwickelt. Um die Trainingsdaten zu erweitern, wurden verschiedene Augmentierungstechniken wie Anpassung von Sättigung und Kontrast sowie Rotation und horizontales Spiegeln angewendet.
 
----
+Durch Hyperparameter-Optimierung wurde ein Modell mit fünf Schichten gefunden, das eine Genauigkeit von 89 % erreichte. Mithilfe von Grad-CAM-Visualisierungen wurde die Erklärbarkeit der Modellentscheidungen analysiert. Dabei zeigte sich, dass das CNN oft Schnabel, Augen oder auffällige Farbübergänge zur Klassifikation heranzieht. Dies führte gelegentlich zu Fehlklassifikationen, wenn nur ein einzelnes Merkmal betrachtet wurde. Das Projekt zeigt, dass bereits mit wenigen Schichten ein leistungsstarker Klassifikator entwickelt werden kann.
 
-## 📬 Contact
-📍 Darmstadt, Germany  
-📧 nhi.nguyenpb@gmail.com  
-📞 +49 152 05339168  
+**Skills**: Python (NumPy, Pandas, TensorFlow, OpenCV, Matplotlib), CNN, Grad-CAM, GitLab für Versionskontrolle, Statistische Evaluierung der Modellleistung,  Ergebnisvisualisierung.
 
----
+![Korrekt klassifizierter Vogel](./img/cv_vogel.png)
+![Falsch klassifizierter Vogel](./img/cv_vogel2.png)
 
-### 🚀 Let's connect and explore data-driven solutions together!
+### **Natural Language Processing** 
+**Analyse von Nachrichtenartikeln mit NLP und Web Scraping**  
+
+Im Rahmen diese Projekts wurde einen Webcrawler entwickelt, der 1182 Artikel von *n-tv.de* heruntergeladen und in einer SQLite-Datenbank gespeichert hat. Die gesammelten Daten wurden mithilfe von NLP-Techniken analysiert, um Kategorisierungen, Wortverteilungen und Topic-Clustering zu untersuchen.  
+
+**Hauptmethoden und Ergebnisse:**  
+- **Web Scraping & Datenverarbeitung:** Extraktion von Kategorien via XPath und RegEx, Speicherung der Artikeltexte in einer Datenbank.  
+- **Textanalyse:** Tokenisierung, Lemmatisierung und Berechnung der Worthäufigkeiten ergaben eine Gesamtlexikongröße von 92.475 Wörtern, die durch Vorverarbeitung auf 78.055 reduziert wurde.  
+- **Ähnlichkeitsanalyse:** Berechnung von Term Frequency (TF), Inverse Document Frequency (IDF) sowie Kosinus- und Sinusähnlichkeiten zur Dokumentklassifikation. Dabei zeigte sich, dass Wirtschaftsartikel stark durch Begriffe wie „Prozent“ oder „Euro“ dominiert wurden.  
+- **Topic Modeling:** Nutzung von *Latent Dirichlet Allocation (LDA)* und *BERTopic* zur automatisierten Themenextraktion. Dabei konnten Themen aus den Bereichen Wirtschaft und Gesellschaft identifiziert werden, wobei sich Cluster teilweise überlappten.  
+
+Die Analyse zeigte, dass klassische Kategorien aus der URL nicht immer die tatsächlichen thematischen Schwerpunkte widerspiegeln. Verbesserungen könnten durch eine feinere Kategorisierung oder alternative Klassifikationsmethoden erzielt werden.
+
+**Skills**: Web Scraping (XPath, RegEx, BeautifulSoup, Scrapy) , Database Management (SQLite, SQL queries), NLP (Tokenization, Lemmatisation, Stopword Removal, TF-IDF), Text Similarity Analysis (Cosine Similarity, Term Frequency (TF), Inverse Document Frequency (IDF)), Topic Modeling (Latent Dirichlet Allocation (LDA), BERTopic), Data Analysis (Scikit-learn, Gensim, Pandas, NumPy), Data Visualization (Matplotlib, Seaborn, Plotly), Clustering & Classification (k-Means, Neural Topic Model)
+
+![Verteilung von Worthäufigkeiten](./img/Worthäufigkeit.png)
+![BERTopic Modell für den ntv.de Datensatz](./img/topic-clustering.png)
+
+### **Bachelorarbeit: Internetnutzungsverhalten** 
+- Entwicklung einer Website mit **JavaScript**  
+- Datenanalyse mit **R**  
 
