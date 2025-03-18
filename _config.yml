@@ -1,5 +1,6 @@
 title: <p align="center"> Nhi Nguyen </p>
-logo: "/img/Nhi Nguyen.jpg"
+logo: "<img src='img/Nhi Nguyen.jpg' alt='Logo' style='border-radius: 50%; width: 150px; height: 150px;'>"
+
 
 description:
 
@@ -10,13 +11,13 @@ description:
   <br> <a href="pdf/Lebenslauf_Nhi_Nguyen.pdf">Resume</a> 
   </p>
 
-  <p align="justify">
-  Ich bin eine engagierte und selbstmotivierte <b>Data Scientist</b>, die nach neuen Herausforderungen sucht, die mit meinen Werten und Karrierezielen übereinstimmen. 
-  <br>
-  Mit einem Hintergrund in Psychologie (B.Sc) und Data Science (M.Sc) bringe ich eine einzigartige Kombination aus analytischem Denken und technischer Expertise mit. 
-  <br>
-  Meine Erfahrungen umfassen statistische Analysen, maschinelles Lernen und die Entwicklung interaktiver Dashboards.
-  <br><br>
-  </p>
+  # <p align="justify">
+  # Ich bin eine engagierte und selbstmotivierte <b>Data Scientist</b>, die nach neuen Herausforderungen sucht, die mit meinen Werten und Karrierezielen übereinstimmen. 
+  # <br>
+  # Mit einem Hintergrund in Psychologie (B.Sc) und Data Science (M.Sc) bringe ich eine einzigartige Kombination aus analytischem Denken und technischer Expertise mit. 
+  # <br>
+  # Meine Erfahrungen umfassen statistische Analysen, maschinelles Lernen und die Entwicklung interaktiver Dashboards.
+  # <br><br>
+  # </p>
   
 theme: jekyll-theme-minimal
