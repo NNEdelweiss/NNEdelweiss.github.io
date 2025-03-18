@@ -1,10 +1,14 @@
-title: Nhi Nguyen
-logo: /img/Nhi Nguyen.jpg
-description: Darmstadt, Deutschland
-# description: "Eine kurze Einführung, wer ich bin und was ich tue."
-# about_me: |
-# Ich bin eine engagierte und selbstmotivierte Data Scientist, die nach neuen Herausforderungen sucht, die mit meinen Werten und Karrierezielen übereinstimmen. 
-# Mit einem Hintergrund in Psychologie (B.Sc) und Data Science (M.Sc) bringe ich eine einzigartige Kombination aus analytischem Denken und technischer Expertise mit. 
-# Meine Erfahrungen umfassen statistische Analysen, maschinelles Lernen und die Entwicklung interaktiver Dashboards.
-# show_downloads: true
+title: <p align="center"> Nhi Nguyen </p>
+logo: "/img/Nhi Nguyen.jpg"
+
+description:
+
+  <p align="center">
+  Darmstadt, Germany
+
+  <br> nhi.nguyenpb@gmail.com
+  <br> <a href="pdf/Lebenslauf_Nhi_Nguyen.pdf">Resume</a> 
+  </p>
+  
+  
 theme: jekyll-theme-minimal

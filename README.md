@@ -8,7 +8,7 @@
 
 ## 📝 Projekte  
 ### **Masterarbeit: Deep Learning in EEG Classification**  
-[Poster](/pdf/Poster_Masterthesis_NhiNguyen.pdf)
+[View Poster](/pdf/Poster_Masterthesis_NhiNguyen.pdf)
 
 In dieser Masterarbeit wird die Entwicklung generalisierbarer DL-Modelle für die Analyse von Elektroenzephalographie (EEG)-Daten untersucht, um die Herausforderungen der hohen Dimensionalität und des niedrigen Signal-Rausch-Verhältnisses zu überwinden. Ein kleines, repräsentatives Subset von EEG-Datensätzen wurde erstellt, das die Diversität einer größeren Sammlung abbildet und so die Generalisierbarkeit der Modelle über verschiedene EEG-Domänen hinweg fördert, ohne domänenspezifische Anpassungen zu benötigen.
 
