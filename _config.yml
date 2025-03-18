@@ -1,14 +1,11 @@
 title: "Nhi Nguyen"
 logo: "img/Nhi Nguyen.jpg"
-located: "Darmstadt, Deutschland"
-[Nhi.nguyenpb@gmail.com](mailto:Nhi.nguyenpb@gmail.com)  
+located: "Darmstadt, Deutschland" 
 # description: "Eine kurze Einführung, wer ich bin und was ich tue."
 # about_me: |
 # Ich bin eine engagierte und selbstmotivierte Data Scientist, die nach neuen Herausforderungen sucht, die mit meinen Werten und Karrierezielen übereinstimmen. 
 # Mit einem Hintergrund in Psychologie (B.Sc) und Data Science (M.Sc) bringe ich eine einzigartige Kombination aus analytischem Denken und technischer Expertise mit. 
 # Meine Erfahrungen umfassen statistische Analysen, maschinelles Lernen und die Entwicklung interaktiver Dashboards.
-
-[Resume](pdf/resume.pdf)
 
 # show_downloads: true
 theme: jekyll-theme-minimal

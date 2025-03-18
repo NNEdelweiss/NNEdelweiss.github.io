@@ -1,5 +1,6 @@
 # Nhi Nguyen  
-## Data Scientist (M.Sc)   
+## Data Scientist (M.Sc)  
+[Resume](pdf/resume.pdf) 
 
 📧 [Nhi.nguyenpb@gmail.com](mailto:Nhi.nguyenpb@gmail.com)  
 
