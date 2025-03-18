@@ -9,13 +9,13 @@
 ### **Masterarbeit: Deep Learning in EEG Classification**  
 [View Poster](/pdf/Poster_Masterthesis_NhiNguyen.pdf)
 
-In dieser Masterarbeit wird die Entwicklung **generalisierbarer DL-Modelle** für die Analyse von **Elektroenzephalographie (EEG)**-Daten untersucht, um die Herausforderungen der hohen **Dimensionalität** und des niedrigen **Signal-Rausch-Verhältnisses** zu überwinden. Ein kleines, repräsentatives **Subset** von EEG-Datensätzen wurde erstellt, das die **Diversität** einer größeren Sammlung abbildet und so die **Generalisierbarkeit** der Modelle über verschiedene EEG-Domänen hinweg fördert, ohne domänenspezifische Anpassungen zu benötigen.
+In dieser Masterarbeit wird die Entwicklung **generalisierbarer DL-Modelle** für die Analyse von **Elektroenzephalographie (EEG)**-Daten untersucht. Ein kleines, repräsentatives **Subset** von EEG-Datensätzen wurde erstellt, das die **Diversität** einer größeren Sammlung abbildet und so die **Generalisierbarkeit** der Modelle über verschiedene EEG-Domänen hinweg fördert, ohne domänenspezifische Anpassungen zu benötigen.
 
 Die Arbeit analysiert **11 End-to-End-DL-Modelle**, die auf **17 EEG-Datensätzen** trainiert und getestet wurden. Ein innovativer Ansatz zur Auswahl des Subsets kombiniert **Ridge-Regression** mit **Korrelationsanalysen**, um den **Median-F1-Score** der Modelle basierend auf diesem Subset vorherzusagen. Das final ausgewählte Subset minimiert **Vorhersagefehler**, gewährleistet **Diversität** und vermeidet **Redundanz**.
 
 Die Ergebnisse zeigen, dass kein DL-Modell eine herausragende **Generalisierbarkeit** über alle Datensätze aufwies. Das ausgewählte Subset zeigte jedoch geringe **Vorhersageabweichungen** und schwache **Korrelationen**, was seine **Diversität** unterstreicht. Diese Arbeit liefert einen wertvollen **Rahmen** für die Entwicklung effizienter und **generalisierbarer DL-Modelle** in der **EEG-Klassifikation**.
 
-**Skills**: Deep Learning (Tensorflow/ Keras), Python, Pandas, Scikit-learn, Feature Engineering, Datenvisualisierung, Projektmanagement.
+*Skills: Deep Learning (Tensorflow/ Keras), Python, Pandas, Scikit-learn, Feature Engineering, Datenvisualisierung, Projektmanagement.*
 
 ![models](/img/ranking_models.png)
 *Evaluation von Modellen: Leistung und Generalisierungsfähigkeit.*
@@ -30,7 +30,7 @@ Die Ergebnisse zeigen, dass kein DL-Modell eine herausragende **Generalisierbark
 
 Im Rahmen dieses Projekts entwickelten wir datengetriebene Lösungen zur Optimierung der **Produkterfassung** und **Preismodellierung** an **Tankstellen**. Durch **Produktclustering** mittels **Konfidenzintervallen** reduzierten wir den Erfassungsaufwand um durchschnittlich **41,1%**, während wir die Genauigkeit beibehielten. Für die **Preismodellierung** nutzten wir **Gradient Boosting** und **SHAP-Werte**, um die Preisbildung zu analysieren und zu erklären, und erzielten eine signifikante Verbesserung gegenüber linearen Modellen. **Datenvorverarbeitung** und **Feature Engineering**, einschließlich der Integration von **Geodaten**, waren entscheidend für den Erfolg. Die Ergebnisse ermöglichen es der Firma, Kosten zu senken, wertvolle Einblicke in die Preisgestaltung zu gewinnen und ihre Prozesse zu optimieren. 
 
-**Skills**: Python, Pandas, Scikit-learn, XGBoost, SHAP, statistische Analyse, Datenvisualisierung, Projektmanagement.
+*Skills: Python, Pandas, Scikit-learn, XGBoost, SHAP, statistische Analyse, Datenvisualisierung, Projektmanagement.*
 
 ![werdenktwas](/img/werdenktwas.png)
 *Ein Beispiel der Einsparung mithilfe der Produktclustering durch ähnliche Preisstrukturen*
@@ -42,7 +42,7 @@ Im Rahmen dieses Projekts entwickelten wir datengetriebene Lösungen zur Optimie
 
 In diesem Projekt wurde ein **Computer-Vision-Programm** entwickelt, das automatisch die **Maße von Inbusschlüsseln** erfasst und im Bild ergänzt. Ziel war es, eine **kostengünstige und präzise Alternative** zur manuellen Qualitätskontrolle bereitzustellen. Das System erkennt die Werkzeuge **zuverlässig** und misst deren **Abmessungen in Millimetern**. Es ist **robust** gegenüber leichten Schatten, Bildrauschen und Variationen in der Beleuchtung. Die **Genauigkeit der Messung** wurde anhand realer Objekte überprüft und zeigte eine **geringe Abweichung** zu manuellen Messungen.
 
-**Skills**: Python (NumPy, Pandas, OpenCV, Matplotlib), Feature Extraction, Bildverarbeitung, Objekterkennung, Datenauswertung.
+*Skills: Python (NumPy, Pandas, OpenCV, Matplotlib), Feature Extraction, Bildverarbeitung, Objekterkennung, Datenauswertung.*
 
 ![Ausgemessene Inbusschlüsseln](/img/cv_inbusschlüsseln.png)
 *Ausgemessene Inbusschlüsseln im Bild.*
@@ -53,7 +53,7 @@ In diesem Projekt wurde ein **Convolutional Neural Network (CNN)** zur Klassifik
 
 Durch **Hyperparameter-Optimierung** wurde ein Modell mit **fünf Schichten** gefunden, das eine **Genauigkeit von 89 %** erreichte. Mithilfe von **Grad-CAM-Visualisierungen** wurde die **Erklärbarkeit** der Modellentscheidungen analysiert. Dabei zeigte sich, dass das CNN oft **Schnabel**, **Augen** oder auffällige **Farbübergänge** zur Klassifikation heranzieht. Dies führte gelegentlich zu Fehlklassifikationen, wenn nur ein einzelnes **Merkmal** betrachtet wurde. Das Projekt zeigt, dass bereits mit wenigen **Schichten** ein leistungsstarker **Klassifikator** entwickelt werden kann.
 
-**Skills**: Python (NumPy, Pandas, TensorFlow, OpenCV, Matplotlib), CNN, Grad-CAM, GitLab für Versionskontrolle, Statistische Evaluierung der Modellleistung,  Ergebnisvisualisierung.
+*Skills: Python (NumPy, Pandas, TensorFlow, OpenCV, Matplotlib), CNN, Grad-CAM, GitLab für Versionskontrolle, Statistische Evaluierung der Modellleistung,  Ergebnisvisualisierung.*
 
 ![Korrekt klassifizierter Vogel](/img/cv_vogel.png)
 *Korrekt klassifizierter Vogel.*
@@ -76,7 +76,7 @@ Im Rahmen diese Projekts wurde einen Webcrawler entwickelt, der 1182 Artikel von
 
 Die Analyse zeigte, dass klassische Kategorien aus der URL nicht immer die tatsächlichen thematischen Schwerpunkte widerspiegeln. Verbesserungen könnten durch eine feinere Kategorisierung oder alternative Klassifikationsmethoden erzielt werden.
 
-**Skills**: Web Scraping (XPath, RegEx, BeautifulSoup, Scrapy) , Database Management (SQLite, SQL queries), NLP (Tokenization, Lemmatisation, Stopword Removal, TF-IDF), Text Similarity Analysis, Topic Modeling (LDA, BERTopic), Data Analysis (Scikit-learn, Gensim, Pandas, NumPy), Data Visualization (Matplotlib, Seaborn, Plotly), Clustering & Classification (k-Means, Neural Topic Model)
+*Skills: Web Scraping (XPath, RegEx, BeautifulSoup, Scrapy) , Database Management (SQLite, SQL queries), NLP (Tokenization, Lemmatisation, Stopword Removal, TF-IDF), Text Similarity Analysis, Topic Modeling (LDA, BERTopic), Data Analysis (Scikit-learn, Gensim, Pandas, NumPy), Data Visualization (Matplotlib, Seaborn, Plotly), Clustering & Classification (k-Means, Neural Topic Model)*
 
 ![Clustering](/img/topic-clustering.png)
 *BERTopic Modell für den ntv.de Datensatz.*

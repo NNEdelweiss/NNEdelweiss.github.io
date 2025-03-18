@@ -1,5 +1,5 @@
 title: <p align="center"> Nhi Nguyen </p>
-logo: "<img src='img/Nhi Nguyen.jpg' alt='Logo' style='border-radius: 50%; width: 150px; height: 150px;'>"
+logo: "img/Nhi Nguyen.jpg"
 
 
 description:
@@ -7,8 +7,8 @@ description:
   <p align="center">
   Darmstadt, Germany
 
+  <br> <a href="pdf/Lebenslauf_Nhi_Nguyen.pdf">Resume</a>   
   <br> Nhi.nguyenpb@gmail.com
-  <br> <a href="pdf/Lebenslauf_Nhi_Nguyen.pdf">Resume</a> 
   </p>
 
   # <p align="justify">
