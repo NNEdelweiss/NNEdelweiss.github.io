@@ -1,13 +1,14 @@
 # Nhi Nguyen  
 ## Data Scientist (M.Sc)  
-[Resume](pdf/resume.pdf) 
+[Resume](/pdf/Lebenslauf_Nhi_Nguyen.pdf) 
 
 📧 [Nhi.nguyenpb@gmail.com](mailto:Nhi.nguyenpb@gmail.com)  
 
 ---
 
 ## 📝 Projekte  
-### **Masterarbeit: Deep Learning in EEG Classification**  [Poster](pdf/Poster_Masterthesis_NhiNguyen.pdf)
+### **Masterarbeit: Deep Learning in EEG Classification**  
+[Poster](/pdf/Poster_Masterthesis_NhiNguyen.pdf)
 
 In dieser Masterarbeit wird die Entwicklung generalisierbarer DL-Modelle für die Analyse von Elektroenzephalographie (EEG)-Daten untersucht, um die Herausforderungen der hohen Dimensionalität und des niedrigen Signal-Rausch-Verhältnisses zu überwinden. Ein kleines, repräsentatives Subset von EEG-Datensätzen wurde erstellt, das die Diversität einer größeren Sammlung abbildet und so die Generalisierbarkeit der Modelle über verschiedene EEG-Domänen hinweg fördert, ohne domänenspezifische Anpassungen zu benötigen.
 
@@ -17,10 +18,10 @@ Die Ergebnisse zeigen, dass kein DL-Modell eine herausragende Generalisierbarkei
 
 **Skills**: Deep Learning (Tensorflow/ Keras), Python, Pandas, Scikit-learn, Feature Engineering, Datenvisualisierung, Projektmanagement.
 
-![models](pdf/ranking_models.pdf)
+![models](/img/ranking_models.png)
 *Evaluation von Modellen: Leistung und Generalisierungsfähigkeit.*
 
-![datasets](pdf/Boxplot_datasets.pdf) 
+![datasets](/img/Boxplot_datasets.png) 
 *Boxplot der Modellleistung über verschiedene Datensätze.*
 
 ### **DataScience-Projekt** 
@@ -30,7 +31,7 @@ Im Rahmen dieses Projekts entwickelten wir datengetriebene Lösungen zur Optimie
 
 **Skills**: Python, Pandas, Scikit-learn, XGBoost, SHAP, statistische Analyse, Datenvisualisierung, Projektmanagement.
 
-![werdenktwas](img/werdenktwas.png)
+![werdenktwas](/img/werdenktwas.png)
 *Ein Beispiel der Einsparung mithilfe der Produktclustering durch ähnliche Preisstrukturen*
 
 ### **Computer Vision** 
@@ -40,7 +41,7 @@ In diesem Projekt wurde ein Computer-Vision-Programm entwickelt, das automatisch
 
 **Skills**: Python (NumPy, Pandas, OpenCV, Matplotlib), Feature Extraction, Bildverarbeitung, Objekterkennung, Datenauswertung.
 
-![Ausgemessene Inbusschlüsseln](img/cv_inbusschlüsseln.png)
+![Ausgemessene Inbusschlüsseln](/img/cv_inbusschlüsseln.png)
 *Ausgemessene Inbusschlüsseln im Bild.*
 
 **Deep Learning zur automatisierten Vogelartenklassifikation**
@@ -51,10 +52,10 @@ Durch Hyperparameter-Optimierung wurde ein Modell mit fünf Schichten gefunden, 
 
 **Skills**: Python (NumPy, Pandas, TensorFlow, OpenCV, Matplotlib), CNN, Grad-CAM, GitLab für Versionskontrolle, Statistische Evaluierung der Modellleistung,  Ergebnisvisualisierung.
 
-![Korrekt klassifizierter Vogel](img/cv_vogel.png)
+![Korrekt klassifizierter Vogel](/img/cv_vogel.png)
 *Korrekt klassifizierter Vogel.*
 
-![Falsch klassifizierter Vogel](img/cv_vogel2.png)
+![Falsch klassifizierter Vogel](/img/cv_vogel2.png)
 *Falsch klassifizierter Vogel*
 
 ### **Natural Language Processing** 
@@ -72,7 +73,7 @@ Die Analyse zeigte, dass klassische Kategorien aus der URL nicht immer die tats�
 
 **Skills**: Web Scraping (XPath, RegEx, BeautifulSoup, Scrapy) , Database Management (SQLite, SQL queries), NLP (Tokenization, Lemmatisation, Stopword Removal, TF-IDF), Text Similarity Analysis, Topic Modeling (LDA, BERTopic), Data Analysis (Scikit-learn, Gensim, Pandas, NumPy), Data Visualization (Matplotlib, Seaborn, Plotly), Clustering & Classification (k-Means, Neural Topic Model)
 
-![Clustering](img/topic-clustering.png)
+![Clustering](/img/topic-clustering.png)
 *BERTopic Modell für den ntv.de Datensatz.*
 
 
