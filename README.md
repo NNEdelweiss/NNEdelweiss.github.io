@@ -1,8 +1,9 @@
-# Nhi Nguyen  
-## Data Scientist (M.Sc)  
-[Resume](/pdf/Lebenslauf_Nhi_Nguyen.pdf) 
+# Portfolio
 
-📧 [Nhi.nguyenpb@gmail.com](mailto:Nhi.nguyenpb@gmail.com)  
+---
+
+## Data Scientist (M.Sc)  
+[Resume](/pdf/Lebenslauf_Nhi_Nguyen.pdf) | 📧 [Nhi.nguyenpb@gmail.com](mailto:Nhi.nguyenpb@gmail.com)  
 
 ---
 
