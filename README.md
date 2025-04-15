@@ -37,6 +37,24 @@ Im Rahmen dieses Projekts entwickelten wir datengetriebene Lösungen zur Optimie
 
 ---
 
+### **Recommendation System** 
+**Buch-Empfehlungssystem**
+
+Dieses Projekt zielt darauf ab, ein intelligentes Empfehlungssystem für Bücher zu entwickeln, das auf den Interessen ähnlicher Nutzer:innen basiert (**Collaborative Filtering**). Die wichtigsten Schritte:
+
+- Parsing von Buch-Metadaten
+- Erstellung einer Suchmaschine zur gezielten Buchsuche  
+- Identifikation von Nutzer:innen mit ähnlichen Leseinteressen**  
+- Analyse der Bücher, die diesen Nutzer:innen gefallen haben  
+- Generierung und Verbesserung der Empfehlungen durch Collaborative Filtering  
+
+***Skills***: *Python (NumPy, Pandas , Scikit-learn, Matplotlib), Text Similarity Analysis, NLP (Tokenization, Tfidf)*
+
+![BookRecommendations](/img/bookrec.png)
+*Ergebnis von Buch-Empfehlungssystem mit Collaborative Filtering*
+
+---
+
 ### **Computer Vision** 
 **Qualitätssicherung von Inbusschlüsseln**
 
