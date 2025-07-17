@@ -28,13 +28,7 @@ Die Ergebnisse zeigen, dass kein DL-Modell eine herausragende **Generalisierbark
 ### **Data-Analyst- und Data-Science-Projekte** 
 **Web Traffic Analysis and Bot Detection**
 
-Analyzed web session data to differentiate between human users and non-human (bot) traffic using rule-based logic. Developed a filtering strategy leveraging metadata features such as user agents, ASN (Autonomous System Number), and behavioral patterns like clickout frequency and hit volume. Built KPIs including Booking Conversion Rate and Clickout Engagement Rate to evaluate session quality before and after bot filtering. Created a data-driven presentation highlighting key insights, traffic anomalies, and actionable recommendations to optimize traffic quality and analytics accuracy.
-
-***Key contributions:***
-- Designed transparent, interpretable logic for bot detection using metadata and behavior signals.
-- Improved accuracy of engagement KPIs by removing noisy bot sessions.
-- Delivered visual and statistical comparisons between human and bot traffic patterns.
-- Recommended strategic improvements for web analytics and session tracking.
+Analyzed web session data to distinguish between human users and **bot traffic** using transparent, **rule-based logic**. Developed a robust **filtering strategy** based on metadata (e.g., user agents, ASN) and behavioral signals (e.g., clickout frequency, hit volume). Built and refined KPIs like **Booking Conversion Rate** and **Clickout Engagement Rate** to evaluate session quality before and after filtering. Delivered a **data-driven presentation** with visual and statistical comparisons, highlighting key insights, uncovering **traffic anomalies** and providing **actionable recommendations** to improve **analytics accuracy** and **tracking quality**.
 
 ***Skills***: *Python (NumPy, Pandas , Scikit-learn, Matplotlib, Seaborn)*
 
