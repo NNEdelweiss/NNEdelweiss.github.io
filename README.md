@@ -25,6 +25,54 @@ Die Ergebnisse zeigen, dass kein DL-Modell eine herausragende **Generalisierbark
 
 ---
 
+### **Data-Analyst-Projekt** 
+**Web Traffic Analysis and Bot Detection**
+
+Analyzed web session data to differentiate between human users and non-human (bot) traffic using rule-based logic. Developed a filtering strategy leveraging metadata features such as user agents, ASN (Autonomous System Number), and behavioral patterns like clickout frequency and hit volume. Built KPIs including Booking Conversion Rate and Clickout Engagement Rate to evaluate session quality before and after bot filtering. Created a data-driven presentation highlighting key insights, traffic anomalies, and actionable recommendations to optimize traffic quality and analytics accuracy.
+
+***Key contributions:***
+- Designed transparent, interpretable logic for bot detection using metadata and behavior signals.
+- Improved accuracy of engagement KPIs by removing noisy bot sessions.
+- Delivered visual and statistical comparisons between human and bot traffic patterns.
+- Recommended strategic improvements for web analytics and session tracking.
+
+***Skills***: *Python (NumPy, Pandas , Scikit-learn, Matplotlib, Seaborn)*
+
+| **Metric**                | **Before Filtering** | **Humans (After Filtering)** | **Bots**   |
+|--------------------------|----------------------|------------------------------|------------|
+| Avg. Hits/Session        | ≈64                | <span style="color:red">≈26</span> 🔽                    | ≈62   |
+| Clickout Engagement Rate | 0.6%                 | <span style="color:green">33% ↑</span> ⬆ | 3.7%   |
+| Booking Conversion Rate  | 0.7%                 | <span style="color:green">1% ↑</span> ⬆ | 0%       |
+| Bounce Rate (1-hit)      | 23%                  | <span style="color:red">0.1%</span> 🔽                     | 67.9%  |
+
+---
+
+**Datenbasierte Analyse zur Optimierung eines Rotweinsortiments**
+
+***Ziel:***  
+Identifikation physikalisch-chemischer Eigenschaften, die mit hoher Rotweinqualität zusammenhängen, um fundierte Sortimentsentscheidungen im Handel zu unterstützen.
+
+***Vorgehen:***  
+- Explorative Datenanalyse & Korrelationsprüfung  
+- Umkodierung der Qualität in zwei Klassen („gut“ vs. „nicht gut“)  
+- Modellvergleich: Random Forest, Gradient Boosting, SVC, Logistic Regression, KNN
+- Ableitung von Schwellenwerten für die vier wichtigsten Qualitätsmerkmale
+
+***Ergebnisse:***  
+Hoch bewertete Weine zeichnen sich durch  
+- höheren Alkoholgehalt,  
+- niedrige flüchtige Säure,  
+- moderate Sulfate und  
+- geringes Gesamtschwefeldioxid aus.  
+Diese Merkmale bilden eine objektive Grundlage für die Sortimentsauswahl.
+
+***Skills***: *Python (pandas, scikit-learn, seaborn), Random Forest, Klassifikation, Feature Importance*
+
+![Rotwein](/img/wine.png)
+*Verteilung wichtiger Merkmale nach Weinbewertung (mit 1=nicht gut, 0=gut)*
+
+---
+
 ### **Team-Projekt** 
 **Produktclustering und Preismodellierung bei Tankstellen**
 
