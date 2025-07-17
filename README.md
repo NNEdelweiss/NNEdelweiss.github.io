@@ -38,13 +38,15 @@ Analyzed web session data to differentiate between human users and non-human (bo
 
 ***Skills***: *Python (NumPy, Pandas , Scikit-learn, Matplotlib, Seaborn)*
 
-**Table: Comparison of Key Engagement Metrics Before and After Bot Filtering**
+**Table: Comparison of KPIs Before and After Bot Filtering**
+
 | **Metric**                | **Before Filtering** | **Humans (After Filtering)** | **Bots**   |
 |--------------------------|----------------------|------------------------------|------------|
 | Avg. Hits/Session        | ≈64                  | <span style="color:red">≈26 ↓</span>      | ≈62    |
 | Clickout Engagement Rate | 0.6%                 | <span style="color:green">33% ↑</span>    | 3.7%   |
 | Booking Conversion Rate  | 0.7%                 | <span style="color:green">1% ↑</span>     | 0%     |
 | Bounce Rate (1-hit)      | 23%                  | <span style="color:red">0.1% ↓</span>     | 67.9%  |
+
 *Filtering bot traffic significantly improves the accuracy of user engagement metrics, distinguishing between real user behavior and automated activity.*
 
 ---
