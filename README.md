@@ -25,7 +25,7 @@ Die Ergebnisse zeigen, dass kein DL-Modell eine herausragende **Generalisierbark
 
 ---
 
-### **Data-Analyst-Projekt** 
+### **Data-Analyst- und Data-Science-Projekte** 
 **Web Traffic Analysis and Bot Detection**
 
 Analyzed web session data to differentiate between human users and non-human (bot) traffic using rule-based logic. Developed a filtering strategy leveraging metadata features such as user agents, ASN (Autonomous System Number), and behavioral patterns like clickout frequency and hit volume. Built KPIs including Booking Conversion Rate and Clickout Engagement Rate to evaluate session quality before and after bot filtering. Created a data-driven presentation highlighting key insights, traffic anomalies, and actionable recommendations to optimize traffic quality and analytics accuracy.
@@ -38,7 +38,7 @@ Analyzed web session data to differentiate between human users and non-human (bo
 
 ***Skills***: *Python (NumPy, Pandas , Scikit-learn, Matplotlib, Seaborn)*
 
-**Table: Comparison of KPIs Before and After Bot Filtering**
+***Table***: *Comparison of KPIs Before and After Bot Filtering*
 
 | **Metric**                | **Before Filtering** | **Humans (After Filtering)** | **Bots**   |
 |--------------------------|----------------------|------------------------------|------------|
@@ -59,16 +59,11 @@ Identifikation physikalisch-chemischer Eigenschaften, die mit hoher Rotweinquali
 ***Vorgehen:***  
 - Explorative Datenanalyse & Korrelationsprüfung  
 - Umkodierung der Qualität in zwei Klassen („gut“ vs. „nicht gut“)  
-- Modellvergleich: Random Forest, Gradient Boosting, SVC, Logistic Regression, KNN
+- Modellvergleich und Modellbasierte Feature-Importance: Random Forest, Gradient Boosting, SVC, Logistic Regression, KNN
 - Ableitung von Schwellenwerten für die vier wichtigsten Qualitätsmerkmale
 
 ***Ergebnisse:***  
-Hoch bewertete Weine zeichnen sich durch  
-- höheren Alkoholgehalt,  
-- niedrige flüchtige Säure,  
-- moderate Sulfate und  
-- geringes Gesamtschwefeldioxid aus.  
-Diese Merkmale bilden eine objektive Grundlage für die Sortimentsauswahl.
+Hoch bewertete Weine zeichnen sich durch *höheren Alkoholgehalt, niedrige flüchtige Säure, moderate Sulfate und geringes Gesamtschwefeldioxid* aus. Diese Merkmale bilden eine objektive Grundlage für die Sortimentsauswahl.
 
 ***Skills***: *Python (pandas, scikit-learn, seaborn), Random Forest, Klassifikation, Feature Importance*
 
