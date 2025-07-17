@@ -6,25 +6,6 @@
 [Resume](/pdf/Lebenslauf_Nhi_Nguyen.pdf) | 📧 [Nhi.nguyenpb@gmail.com](mailto:Nhi.nguyenpb@gmail.com)  
 
 ## 📝 Projekte  
-### **Masterarbeit: Deep Learning in EEG Classification**  
-[*View Poster*](/pdf/Poster_Masterthesis_NhiNguyen.pdf)
-
-In dieser Masterarbeit wird die Entwicklung **generalisierbarer DL-Modelle** für die Analyse von **Elektroenzephalographie (EEG)**-Daten untersucht. Ein kleines, repräsentatives **Subset** von EEG-Datensätzen wurde erstellt, das die **Diversität** einer größeren Sammlung abbildet und so die **Generalisierbarkeit** der Modelle über verschiedene EEG-Domänen hinweg fördert, ohne domänenspezifische Anpassungen zu benötigen.
-
-Die Arbeit analysiert **11 End-to-End-DL-Modelle**, die auf **17 EEG-Datensätzen** trainiert und getestet wurden. Ein innovativer Ansatz zur Auswahl des Subsets kombiniert **Ridge-Regression** mit **Korrelationsanalysen**, um den **Median-F1-Score** der Modelle basierend auf diesem Subset vorherzusagen. Das final ausgewählte Subset minimiert **Vorhersagefehler**, gewährleistet **Diversität** und vermeidet **Redundanz**.
-
-Die Ergebnisse zeigen, dass kein DL-Modell eine herausragende **Generalisierbarkeit** über alle Datensätze aufwies. Das ausgewählte Subset zeigte jedoch geringe **Vorhersageabweichungen** und schwache **Korrelationen**, was seine **Diversität** unterstreicht. Diese Arbeit liefert einen wertvollen **Rahmen** für die Entwicklung effizienter und **generalisierbarer DL-Modelle** in der **EEG-Klassifikation**.
-
-***Skills***: *Deep Learning (Tensorflow/ Keras), Python, Pandas, Scikit-learn, Feature Engineering, Datenvisualisierung, Projektmanagement.*
-
-![models](/img/ranking_models.png)
-*Evaluation von Modellen: Leistung und Generalisierungsfähigkeit.*
-
-![datasets](/img/Boxplot_datasets.png) 
-*Boxplot der Modellleistung über verschiedene Datensätze.*
-
----
-
 ### **Data-Analyst- und Data-Science-Projekte** 
 **Web Traffic Analysis and Bot Detection**
 
@@ -66,7 +47,6 @@ Hoch bewertete Weine zeichnen sich durch *höheren Alkoholgehalt, niedrige flüc
 
 ---
 
-### **Team-Projekt** 
 **Produktclustering und Preismodellierung bei Tankstellen**
 
 Im Rahmen dieses Projekts entwickelten wir datengetriebene Lösungen zur Optimierung der **Produkterfassung** und **Preismodellierung** an **Tankstellen**. Durch **Produktclustering** mittels **Konfidenzintervallen** reduzierten wir den Erfassungsaufwand um durchschnittlich **41,1%**, während wir die Genauigkeit beibehielten. Für die **Preismodellierung** nutzten wir **Gradient Boosting** und **SHAP-Werte**, um die Preisbildung zu analysieren und zu erklären, und erzielten eine signifikante Verbesserung gegenüber linearen Modellen. **Datenvorverarbeitung** und **Feature Engineering**, einschließlich der Integration von **Geodaten**, waren entscheidend für den Erfolg. Die Ergebnisse ermöglichen es der Firma, Kosten zu senken, wertvolle Einblicke in die Preisgestaltung zu gewinnen und ihre Prozesse zu optimieren. 
@@ -141,5 +121,25 @@ Die Analyse zeigte, dass klassische Kategorien aus der URL nicht immer die tats�
 
 ![Clustering](/img/topic-clustering.png)
 *BERTopic Modell für den ntv.de Datensatz.*
+
+---
+
+### **Masterarbeit: Deep Learning in EEG Classification**  
+[*View Poster*](/pdf/Poster_Masterthesis_NhiNguyen.pdf)
+
+In dieser Masterarbeit wird die Entwicklung **generalisierbarer DL-Modelle** für die Analyse von **Elektroenzephalographie (EEG)**-Daten untersucht. Ein kleines, repräsentatives **Subset** von EEG-Datensätzen wurde erstellt, das die **Diversität** einer größeren Sammlung abbildet und so die **Generalisierbarkeit** der Modelle über verschiedene EEG-Domänen hinweg fördert, ohne domänenspezifische Anpassungen zu benötigen.
+
+Die Arbeit analysiert **11 End-to-End-DL-Modelle**, die auf **17 EEG-Datensätzen** trainiert und getestet wurden. Ein innovativer Ansatz zur Auswahl des Subsets kombiniert **Ridge-Regression** mit **Korrelationsanalysen**, um den **Median-F1-Score** der Modelle basierend auf diesem Subset vorherzusagen. Das final ausgewählte Subset minimiert **Vorhersagefehler**, gewährleistet **Diversität** und vermeidet **Redundanz**.
+
+Die Ergebnisse zeigen, dass kein DL-Modell eine herausragende **Generalisierbarkeit** über alle Datensätze aufwies. Das ausgewählte Subset zeigte jedoch geringe **Vorhersageabweichungen** und schwache **Korrelationen**, was seine **Diversität** unterstreicht. Diese Arbeit liefert einen wertvollen **Rahmen** für die Entwicklung effizienter und **generalisierbarer DL-Modelle** in der **EEG-Klassifikation**.
+
+***Skills***: *Deep Learning (Tensorflow/ Keras), Python, Pandas, Scikit-learn, Feature Engineering, Datenvisualisierung, Projektmanagement.*
+
+![models](/img/ranking_models.png)
+*Evaluation von Modellen: Leistung und Generalisierungsfähigkeit.*
+
+![datasets](/img/Boxplot_datasets.png) 
+*Boxplot der Modellleistung über verschiedene Datensätze.*
+
 
 
