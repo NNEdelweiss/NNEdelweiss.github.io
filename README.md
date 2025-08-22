@@ -23,6 +23,8 @@ Implementing a strategic retention plan based on these insights could help prote
 ![churn_analysis](/img/churn_modeling.png)
 *Churn Prediction Model Dashboard: CatBoost model performance analysis achieving 84%+ ROC-AUC with optimal business threshold (0.7)*
 
+---
+
 **Web Traffic Analysis and Bot Detection**
 
 Analyzed web session data to distinguish between human users and **bot traffic** using transparent, **rule-based logic**. Developed a robust **filtering strategy** based on metadata (e.g., user agents, ASN) and behavioral signals (e.g., clickout frequency, hit volume). Built and refined **KPIs** like *Booking Conversion Rate* and *Clickout Engagement Rate* to evaluate session quality before and after filtering. Delivered a data-driven presentation with **visual and statistical comparisons**, highlighting key insights, uncovering **traffic anomalies** and providing **actionable recommendations** to improve analytics accuracy and tracking quality.
