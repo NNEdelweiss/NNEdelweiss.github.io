@@ -7,9 +7,24 @@
 
 ## 📝 Projekte  
 ### **Data-Analyst- und Data-Science-Projekte** 
+**Customer Churn Prediction**
+In this project, I built a machine learning model to predict telecom customer churn and extract actionable business insights. The analysis revealed three critical risk factors driving churn: **month-to-month contracts** *(42.7%)*, **electronic check payments** *(45.3%)*, and **first-year customers** *(47.7%)*. **Fiber optic** users also showed significantly higher churn *(41.9%)*, indicating possible service or pricing issues.
+
+Using **CatBoost** (ROC-AUC 0.85), I identified **tenure, contract type, and monthly charges** as the strongest predictors of churn. Adjusting the prediction threshold improved **campaign ROI** by *200–300%*, enabling high-precision targeting of at-risk customers. These insights translate into clear strategies: encourage annual contracts, shift customers to automatic payments, strengthen onboarding for new clients, and address fiber service concerns. Additionally, the churn prediction model can be leveraged to target **high-risk customers (>70% churn probability)** with *personalized offers, proactive outreach, and service guarantees*.
+
+Implementing a strategic retention plan based on these insights could help protect **more than $1.6M in annual revenue** currently at risk.
+
+***Skills***: *Python, Classification algorithms, Model Evaluation, Hyperparameter Tuning, Imbalanced Data, ROI Analysis*
+
+![churn_analysis](/img/churn_analysis.png)
+*Customer Churn Risk Dashboard*
+
+![churn_analysis](/img/churn_modeling.png)
+*Churn Prediction Model Dashboard*
+
 **Web Traffic Analysis and Bot Detection**
 
-Analyzed web session data to distinguish between human users and **bot traffic** using transparent, **rule-based logic**. Developed a robust **filtering strategy** based on metadata (e.g., user agents, ASN) and behavioral signals (e.g., clickout frequency, hit volume). Built and refined KPIs like **Booking Conversion Rate** and **Clickout Engagement Rate** to evaluate session quality before and after filtering. Delivered a **data-driven presentation** with visual and statistical comparisons, highlighting key insights, uncovering **traffic anomalies** and providing **actionable recommendations** to improve **analytics accuracy** and **tracking quality**.
+Analyzed web session data to distinguish between human users and **bot traffic** using transparent, **rule-based logic**. Developed a robust **filtering strategy** based on metadata (e.g., user agents, ASN) and behavioral signals (e.g., clickout frequency, hit volume). Built and refined **KPIs** like *Booking Conversion Rate* and *Clickout Engagement Rate* to evaluate session quality before and after filtering. Delivered a data-driven presentation with **visual and statistical comparisons**, highlighting key insights, uncovering **traffic anomalies** and providing **actionable recommendations** to improve analytics accuracy and tracking quality.
 
 ***Skills***: *Python (NumPy, Pandas , Scikit-learn, Matplotlib, Seaborn)*
 
