@@ -3,7 +3,7 @@
 ---
 
 ## Data Science (M.Sc)  
-[Resume](/pdf/Lebenslauf_Nhi_Nguyen.pdf) | 📧 [Nhi.nguyenpb@gmail.com](mailto:Nhi.nguyenpb@gmail.com)  
+[Resume](/pdf/Lebenslauf_NhiNguyen_DS.pdf) | 📧 [Nhi.nguyenpb@gmail.com](mailto:Nhi.nguyenpb@gmail.com)  
 
 ## 📝 Projekte  
 ### **Data-Analyst- und Data-Science-Projekte** 
