@@ -1,10 +1,6 @@
 # Project Portfolio
 
----
-
 **Data Science (M.Sc)** | [Resume](/pdf/Lebenslauf_NhiNguyen_DS.pdf) | 📧 [Nhi.nguyenpb@gmail.com](mailto:Nhi.nguyenpb@gmail.com)  
-
----
 
 ## 📚 RAG Document-Based Chatbot  
 

@@ -17,9 +17,11 @@ header {
 }
 
 section {
-  width: 900px; /* Increase content area width */
+  width: 800px; /* Increase content area width */
   float: right;
   padding-bottom: 50px;
+  margin-right: 50px;     /* Space from right edge */
+  padding-right: 20px;    /* Extra padding to prevent overflow */  
 }
 
 /* Make logo/avatar smaller */
@@ -37,7 +39,7 @@ section img {
   width: 100%;             /* Responsive width */
   height: auto;            /* Keep aspect ratio */
   display: block;          /* Make it a block element */
-  margin: 20px auto;       /* Center and add spacing */
+  margin: 20px 0;       /* Center and add spacing */
 }
 
 
