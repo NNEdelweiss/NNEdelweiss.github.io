@@ -1,12 +1,12 @@
-# Portfolio
+# Project Portfolio
 
 ---
 
-## Data Science (M.Sc)  
-[Resume](/pdf/Lebenslauf_NhiNguyen_DS.pdf) | 📧 [Nhi.nguyenpb@gmail.com](mailto:Nhi.nguyenpb@gmail.com)  
+**Data Science (M.Sc)** | [Resume](/pdf/Lebenslauf_NhiNguyen_DS.pdf) | 📧 [Nhi.nguyenpb@gmail.com](mailto:Nhi.nguyenpb@gmail.com)  
 
-## 📝 Projekte  
-### 📚 RAG Document-Based Chatbot  
+---
+
+## 📚 RAG Document-Based Chatbot  
 
 This project is a **Retrieval-Augmented Generation (RAG) chatbot** that allows users to **upload their own documents (PDF/TXT)** and and ask questions about them. The chatbot retrieves relevant document sections using embeddings and a vector database, then generates concise, context-aware answers with the help of a Large Language Model (LLM).  
 
@@ -30,8 +30,8 @@ This project is a **Retrieval-Augmented Generation (RAG) chatbot** that allows u
 
 ---
 
-### **Data-Analyst- und Data-Science-Projekte** 
-**Customer Churn Prediction**
+## **Data-Analyst- und Data-Science-Projekte** 
+### **Customer Churn Prediction**
 
 In this project, I built a machine learning model to predict telecom customer churn and extract actionable business insights. The analysis revealed three critical risk factors driving churn: **month-to-month contracts** *(42.7%)*, **electronic check payments** *(45.3%)*, and **first-year customers** *(47.7%)*. **Fiber optic** users also showed significantly higher churn *(41.9%)*, indicating possible service or pricing issues.
 
@@ -49,7 +49,7 @@ Implementing a strategic retention plan based on these insights could help prote
 
 ---
 
-**Web Traffic Analysis and Bot Detection**
+### **Web Traffic Analysis and Bot Detection**
 
 Analyzed web session data to distinguish between human users and **bot traffic** using transparent, **rule-based logic**. Developed a robust **filtering strategy** based on metadata (e.g., user agents, ASN) and behavioral signals (e.g., clickout frequency, hit volume). Built and refined **KPIs** like *Booking Conversion Rate* and *Clickout Engagement Rate* to evaluate session quality before and after filtering. Delivered a data-driven presentation with **visual and statistical comparisons**, highlighting key insights, uncovering **traffic anomalies** and providing **actionable recommendations** to improve analytics accuracy and tracking quality.
 
@@ -68,7 +68,7 @@ Analyzed web session data to distinguish between human users and **bot traffic**
 
 ---
 
-**Datenbasierte Analyse zur Optimierung eines Rotweinsortiments**
+### **Datenbasierte Analyse zur Optimierung eines Rotweinsortiments**
 
 ***Ziel:***  
 Identifikation physikalisch-chemischer Eigenschaften, die mit hoher Rotweinqualität zusammenhängen, um fundierte Sortimentsentscheidungen im Handel zu unterstützen.
@@ -89,7 +89,7 @@ Hoch bewertete Weine zeichnen sich durch *höheren Alkoholgehalt, niedrige flüc
 
 ---
 
-**Produktclustering und Preismodellierung bei Tankstellen**
+### **Produktclustering und Preismodellierung bei Tankstellen**
 
 Im Rahmen dieses Projekts entwickelten wir datengetriebene Lösungen zur Optimierung der **Produkterfassung** und **Preismodellierung** an **Tankstellen**. Durch **Produktclustering** mittels **Konfidenzintervallen** reduzierten wir den Erfassungsaufwand um durchschnittlich **41,1%**, während wir die Genauigkeit beibehielten. Für die **Preismodellierung** nutzten wir **Gradient Boosting** und **SHAP-Werte**, um die Preisbildung zu analysieren und zu erklären, und erzielten eine signifikante Verbesserung gegenüber linearen Modellen. **Datenvorverarbeitung** und **Feature Engineering**, einschließlich der Integration von **Geodaten**, waren entscheidend für den Erfolg. Die Ergebnisse ermöglichen es der Firma, Kosten zu senken, wertvolle Einblicke in die Preisgestaltung zu gewinnen und ihre Prozesse zu optimieren. 
 
@@ -100,8 +100,8 @@ Im Rahmen dieses Projekts entwickelten wir datengetriebene Lösungen zur Optimie
 
 ---
 
-### **Recommendation System** 
-**Buch-Empfehlungssystem**
+## **Recommendation System** 
+### **Buch-Empfehlungssystem**
 
 Dieses Projekt zielt darauf ab, ein intelligentes Empfehlungssystem für Bücher zu entwickeln, das auf den Interessen ähnlicher Nutzer:innen basiert (**Collaborative Filtering**). Die wichtigsten Schritte:
 
@@ -118,8 +118,8 @@ Dieses Projekt zielt darauf ab, ein intelligentes Empfehlungssystem für Bücher
 
 ---
 
-### **Computer Vision** 
-**Qualitätssicherung von Inbusschlüsseln**
+## **Computer Vision** 
+### **Qualitätssicherung von Inbusschlüsseln**
 
 In diesem Projekt wurde ein **Computer-Vision-Programm** entwickelt, das automatisch die **Maße von Inbusschlüsseln** erfasst und im Bild ergänzt. Ziel war es, eine **kostengünstige und präzise Alternative** zur manuellen Qualitätskontrolle bereitzustellen. Das System erkennt die Werkzeuge **zuverlässig** und misst deren **Abmessungen in Millimetern**. Es ist **robust** gegenüber leichten Schatten, Bildrauschen und Variationen in der Beleuchtung. Die **Genauigkeit der Messung** wurde anhand realer Objekte überprüft und zeigte eine **geringe Abweichung** zu manuellen Messungen.
 
@@ -130,7 +130,7 @@ In diesem Projekt wurde ein **Computer-Vision-Programm** entwickelt, das automat
 
 ---
 
-**Deep Learning zur automatisierten Vogelartenklassifikation**
+### **Deep Learning zur automatisierten Vogelartenklassifikation**
 
 In diesem Projekt wurde ein **Convolutional Neural Network (CNN)** zur Klassifikation von **524 Vogelarten** entwickelt. Um die Trainingsdaten zu erweitern, wurden verschiedene **Augmentierungstechniken** wie Anpassung von **Sättigung** und **Kontrast** sowie **Rotation** und **horizontales Spiegeln** angewendet.
 
@@ -146,7 +146,7 @@ Durch **Hyperparameter-Optimierung** wurde ein Modell mit **fünf Schichten** ge
 
 ---
 
-### **Natural Language Processing** 
+## **Natural Language Processing** 
 **Analyse von Nachrichtenartikeln mit NLP und Web Scraping**  
 
 Im Rahmen diese Projekts wurde einen Webcrawler entwickelt, der 1182 Artikel von *n-tv.de* heruntergeladen und in einer SQLite-Datenbank gespeichert hat. Die gesammelten Daten wurden mithilfe von NLP-Techniken analysiert, um Kategorisierungen, Wortverteilungen und Topic-Clustering zu untersuchen.  
@@ -166,7 +166,8 @@ Die Analyse zeigte, dass klassische Kategorien aus der URL nicht immer die tats�
 
 ---
 
-### **Masterarbeit: Deep Learning in EEG Classification**  
+## **Masterarbeit**
+### **Deep Learning in EEG Classification**  
 [*View Poster*](/pdf/Poster_Masterthesis_NhiNguyen.pdf)
 
 In dieser Masterarbeit wird die Entwicklung **generalisierbarer DL-Modelle** für die Analyse von **Elektroenzephalographie (EEG)**-Daten untersucht. Ein kleines, repräsentatives **Subset** von EEG-Datensätzen wurde erstellt, das die **Diversität** einer größeren Sammlung abbildet und so die **Generalisierbarkeit** der Modelle über verschiedene EEG-Domänen hinweg fördert, ohne domänenspezifische Anpassungen zu benötigen.

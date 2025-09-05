@@ -27,7 +27,19 @@ header img {
   max-width: 150px; /* Reduce from default size */
   width: 150px;
   border-radius: 50%;
+  display: block;
+  margin: 0 auto;
 }
+
+/* Make project images smaller */
+section img {
+  max-width: 400px;        /* Maximum width */
+  width: 100%;             /* Responsive width */
+  height: auto;            /* Keep aspect ratio */
+  display: block;          /* Make it a block element */
+  margin: 20px auto;       /* Center and add spacing */
+}
+
 
 /* Responsive adjustments */
 @media print, screen and (max-width: 960px) {
@@ -54,3 +66,4 @@ header img {
     margin: 0 0 20px;
   }
 }
+
