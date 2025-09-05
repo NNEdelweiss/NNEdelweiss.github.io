@@ -1,0 +1,56 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Custom CSS for jekyll-theme-minimal */
+.wrapper {
+  width: 1200px; /* Increase overall width */
+  margin: 0 auto;
+}
+
+header {
+  width: 250px; /* Reduce sidebar width (default is ~270px) */
+  float: left;
+  position: fixed;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+section {
+  width: 900px; /* Increase content area width */
+  float: right;
+  padding-bottom: 50px;
+}
+
+/* Make logo/avatar smaller */
+header img {
+  max-width: 150px; /* Reduce from default size */
+  width: 150px;
+  border-radius: 50%;
+}
+
+/* Responsive adjustments */
+@media print, screen and (max-width: 960px) {
+  .wrapper {
+    width: auto;
+    margin: 0;
+  }
+  
+  header, section {
+    float: none;
+    position: static;
+    width: auto;
+  }
+  
+  header {
+    padding-right: 320px;
+    min-height: 0;
+  }
+  
+  section {
+    border: 1px solid #e5e5e5;
+    border-width: 1px 0;
+    padding: 20px 0;
+    margin: 0 0 20px;
+  }
+}

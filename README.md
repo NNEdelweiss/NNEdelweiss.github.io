@@ -6,12 +6,36 @@
 [Resume](/pdf/Lebenslauf_NhiNguyen_DS.pdf) | 📧 [Nhi.nguyenpb@gmail.com](mailto:Nhi.nguyenpb@gmail.com)  
 
 ## 📝 Projekte  
+### 📚 RAG Document-Based Chatbot  
+
+This project is a **Retrieval-Augmented Generation (RAG) chatbot** that allows users to **upload their own documents (PDF/TXT)** and and ask questions about them. The chatbot retrieves relevant document sections using embeddings and a vector database, then generates concise, context-aware answers with the help of a Large Language Model (LLM).  
+
+***Features***
+- **Upload documents** directly in the web app (PDF or TXT).  
+- **Automatic document processing**: chunking, embedding, and indexing.  
+- **Semantic search**: retrieve relevant chunks even if the query is paraphrased or uses synonyms.  
+- **LLM-powered answers**: generates responses grounded in the uploaded content.  
+- **Graceful fallback**: if the answer cannot be found in the context, the chatbot replies with *"I don’t know."*  
+- **Streamlit interface**: simple and interactive UI for uploading files and chatting. 
+
+***Example Use Cases***
+- Query **research papers** or **technical reports**.  
+- Extract insights from **business documents**.  
+- Turn **notes** into a conversational knowledge base.  
+
+***Tech Stack***: *Python · LangChain · FAISS · SentenceTransformers · OpenAI API · Streamlit*
+
+![ragchatbot](/img/ragchatbot.png)
+*This project demonstrates how RAG can turn static documents into interactive knowledge bases, showcasing skills in data processing, embeddings, LLM integration, and user-facing applications.*  
+
+---
+
 ### **Data-Analyst- und Data-Science-Projekte** 
 **Customer Churn Prediction**
 
 In this project, I built a machine learning model to predict telecom customer churn and extract actionable business insights. The analysis revealed three critical risk factors driving churn: **month-to-month contracts** *(42.7%)*, **electronic check payments** *(45.3%)*, and **first-year customers** *(47.7%)*. **Fiber optic** users also showed significantly higher churn *(41.9%)*, indicating possible service or pricing issues.
 
-Using **CatBoost** (ROC-AUC 0.85), I identified **tenure, contract type, and monthly charges** as the strongest predictors of churn. Adjusting the prediction threshold improved **campaign ROI** by *200–300%*, enabling high-precision targeting of at-risk customers. These insights translate into clear strategies: encourage annual contracts, shift customers to automatic payments, strengthen onboarding for new clients, and address fiber service concerns. Additionally, the churn prediction model can be leveraged to target **high-risk customers (>70% churn probability)** with *personalized offers, proactive outreach, and service guarantees*.
+Using **CatBoost** (ROC-AUC 0.85), I identified **tenure, contract type, and monthly charges** as the strongest predictors of churn. Adjusting the prediction threshold improved **campaign ROI** by enabling high-precision targeting — reducing *false positives* by *40%* while still capturing *85%* of actual churners. These insights translate into clear strategies: encourage annual contracts, shift customers to automatic payments, strengthen onboarding for new clients, and address fiber service concerns. Additionally, the churn prediction model can be leveraged to target **high-risk customers (>70% churn probability)** with *personalized offers, proactive outreach, and service guarantees*.
 
 Implementing a strategic retention plan based on these insights could help protect **more than $1.6M in annual revenue** currently at risk.
 
