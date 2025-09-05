@@ -19,7 +19,7 @@ This project is a **Retrieval-Augmented Generation (RAG) chatbot** that allows u
 - Extract insights from **business documents**.  
 - Turn **notes** into a conversational knowledge base.  
 
-***Tech Stack***: *Python · LangChain · FAISS · SentenceTransformers · OpenAI API · Streamlit*
+***Skills***: *Python, LLM, Prompt Engineer, LangChain, ChomaDB, SentenceTransformers, Groq API, Streamlit*
 
 ![ragchatbot](/img/ragchatbot.png)
 *This project demonstrates how RAG can turn static documents into interactive knowledge bases, showcasing skills in data processing, embeddings, LLM integration, and user-facing applications.*  
