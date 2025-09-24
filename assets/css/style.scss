@@ -39,7 +39,12 @@ section img {
   width: 100%;             /* Responsive width */
   height: auto;            /* Keep aspect ratio */
   display: block;          /* Make it a block element */
-  margin: 20px 0;     
+  margin: 20px 0;  
+  
+  &.side-by-side {  /* Exception for side-by-side images */
+    width: auto !important;
+    display: inline-block !important;
+  }
 }
 
 
