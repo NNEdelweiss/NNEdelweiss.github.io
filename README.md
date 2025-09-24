@@ -28,24 +28,29 @@ This project is a **Retrieval-Augmented Generation (RAG) chatbot** that allows u
 
 ## **Data-Analyst- und Data-Science-Projekte** 
 
-### *Digital Ad Performance Dashboard
+### Digital Ad Performance Dashboard
 
 Built an **interactive Streamlit dashboard** analyzing 4.1M+ campaign records (2017) across four social platforms.
 
-Designed *overview & detail tabs* (KPI tracking, platform/device comparisons, and advertiser/campaign drill-downs), *interactive filters*, advanced visualizations (heatmaps, time-series, bubble/quadrant charts), and automated insight generation. 
+Designed **overview & detail tabs** (KPI tracking, platform/device comparisons, and advertiser/campaign drill-downs), **interactive filters**, advanced visualizations (heatmaps, time-series, bubble/quadrant charts), and automated insight generation. 
 
 Backend Optimization: Used Parquet for efficient loading, implemented pivoting/reshaping for visualization needs, and deployed via Railway with GitHub CI/CD pipeline.
 
 **Key Insights & Implications**: 
-- Meta drove reach but *low efficiency* -> Allocate budgets carefully and optimize targeting/creative.
-- YouTube had the *strongest CTR & VCR* -> Ideal for campaigns focused on clicks and video completion. 
-- Snapchat excelled in clicks but weak completions -> Use for traffic-driven campaigns, not branding.
-- TikTok showed the inverse -> Best for awareness campaigns, not conversions.
-- Devices perform consistently but desktops/SmartTVs excel in video completion → tailor longer-form content to these screens.
+- Meta drove reach but *low efficiency* → Allocate budgets carefully and optimize targeting/creative.
+- YouTube had the *strongest CTR & VCR* → Ideal for campaigns focused on clicks and video completion. 
+- Snapchat *excelled in clicks* but *weak completions* → Use for traffic-driven campaigns, not branding.
+- TikTok shows *strong completion* but *low clicks* → Best for awareness campaigns, not conversions.
+- Devices perform *consistently* but desktops/SmartTVs excel in video completion → tailor longer-form content to these screens.
 
 ***Tech Stack***: *Python, Pandas, Streamlit, Plotly, Parquet, Git/GitHub, Railway*
 
-<img src="/img/media_dashboard_t1.png" width="45%" style="display:inline-block"> <img src="/img/media_dashboard_t2.png" width="45%" style="display:inline-block">
+<table>
+  <tr>
+    <td><img src="/img/media_dashboard_t1.png" width="400"></td>
+    <td><img src="/img/media_dashboard_t2.png" width="400"></td>
+  </tr>
+</table>
 
 ---
 
