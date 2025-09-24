@@ -67,7 +67,7 @@ Implementing a strategic retention plan based on these insights could help prote
   <tr>
     <td align="left">
       <img src="/img/churn_analysis.png" class="side-by-side"><br>
-      <i>Customer Churn Risk Dashboard: High-risk segments included month-to-month contracts, new customers and manual payment methods; Internet users with fiber optic also showed higher churn</i>
+      <i>Customer Churn Risk Dashboard: High-risk segments included month-to-month contracts, new customers, manual payment methods and internet users with fiber optic</i>
     </td>
     <td align="left">
       <img src="/img/churn_modeling.png" class="side-by-side"><br>
