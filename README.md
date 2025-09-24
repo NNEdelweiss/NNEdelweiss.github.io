@@ -51,8 +51,7 @@ Backend Optimization: Used Parquet for efficient loading, implemented pivoting/r
     <td><img src="/img/media_dashboard_t2.png" width="400"></td>
   </tr>
 </table>
-
----
+    
 
 ### **Customer Churn Prediction**
 
