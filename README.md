@@ -51,7 +51,7 @@ Backend Optimization: Used Parquet for efficient loading, implemented pivoting/r
     <td><img src="/img/media_dashboard_t2.png" width="400"></td>
   </tr>
 </table>
-    
+
 
 ### **Customer Churn Prediction**
 
@@ -63,13 +63,19 @@ Implementing a strategic retention plan based on these insights could help prote
 
 ***Skills***: *Python, Classification algorithms, Model Evaluation, Hyperparameter Tuning, Imbalanced Data, ROI Analysis*
 
-![churn_analysis](/img/churn_analysis.png)
-*Customer Churn Risk Dashboard: High-risk segments included month-to-month contracts, new customers and manual payment methods; Internet users with fiber optic also showed higher churn*
+<table>
+  <tr>
+    <td align="left">
+      <img src="/img/churn_analysis.png" width="400"><br>
+      <i>Customer Churn Risk Dashboard: High-risk segments included month-to-month contracts, new customers and manual payment methods; Internet users with fiber optic also showed higher churn</i>
+    </td>
+    <td align="left">
+      <img src="/img/churn_modeling.png" width="400"><br>
+      <i>Churn Prediction Model Dashboard: CatBoost model performance analysis achieving 84%+ ROC-AUC with optimal business threshold (0.7)</i>
+    </td>
+  </tr>
+</table>
 
-![churn_analysis](/img/churn_modeling.png)
-*Churn Prediction Model Dashboard: CatBoost model performance analysis achieving 84%+ ROC-AUC with optimal business threshold (0.7)*
-
----
 
 ### **Web Traffic Analysis and Bot Detection**
 
