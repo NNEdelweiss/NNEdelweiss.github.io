@@ -66,11 +66,11 @@ Implementing a strategic retention plan based on these insights could help prote
 <table>
   <tr>
     <td align="left">
-      <img src="/img/churn_analysis.png" width="400"><br>
+      <img src="/img/churn_analysis.png" width="300" height="300"><br>
       <i>Customer Churn Risk Dashboard: High-risk segments included month-to-month contracts, new customers and manual payment methods; Internet users with fiber optic also showed higher churn</i>
     </td>
     <td align="left">
-      <img src="/img/churn_modeling.png" width="400"><br>
+      <img src="/img/churn_modeling.png" width="300" height="300"><br>
       <i>Churn Prediction Model Dashboard: CatBoost model performance analysis achieving 84%+ ROC-AUC with optimal business threshold (0.7)</i>
     </td>
   </tr>
