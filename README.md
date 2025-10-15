@@ -28,50 +28,6 @@ This project is a **Retrieval-Augmented Generation (RAG) chatbot** that allows u
 
 ## **Data-Analyst- und Data-Science-Projekte** 
 
-### Airline Passenger Satisfaction Analysis  
-[View Full Airline Satisfaction Report](pdf/airline_satisfaction_report.html)
-
-**Multivariate Statistical Analysis for Strategic Customer Insights**  
-Analyzed 103,904 airline passenger records to identify satisfaction drivers and actionable customer segments using advanced statistical techniques in R. Transformed 24 raw features into strategic business recommendations.  
-
-**Methods:**  
-- **Exploratory Factor Analysis:** Reduced 14 service metrics to 5 latent dimensions (KMO = 0.92, 67% variance explained).  
-- **Hierarchical Logistic Regression:** Quantified key satisfaction drivers; factor scores improved explanatory power by 38% (Pseudo R² = 0.87).  
-- **K-Means Clustering:** Segmented passengers into 4 profiles with satisfaction rates from 12% to 80%.  
-
-**Key Findings:**  
-- Business travelers are 17.6× more likely to be satisfied.  
-- Digital convenience factor increases satisfaction odds by 2.8×.  
-- 36% of passengers in the crisis segment (12% satisfaction) require urgent intervention.  
-- Identified 3 high-impact service dimensions for strategic prioritization.  
-
-**Business Impact:**  
-Provided segment-specific strategies and monitoring framework, enabling targeted resource allocation. Consolidated 14 KPIs into 5 strategic factors and 4 actionable customer segments.  
-
-***Skills***: *R, Factor Analysis, Logistic Regression, Clustering, Data Visualization, Statistical Modeling, Large-Scale Data Analysis*  
-
-***Table***: *Top Items by Factor*
-
-| Factor   | Interpretation                | Top Items                                           | Strategic Focus                  |
-|----------|-------------------------------|----------------------------------------------------|----------------------------------|
-| 1 | In-Flight Comfort & Amenities | Cleanliness, Food/Drink, Entertainment, Seat Comfort | Physical product differentiation |
-| 2 | Digital Convenience           | Online Booking, Wifi, Online Boarding             | Digital infrastructure investment |
-| 3 | Service Excellence            | Inflight Service, Baggage Handling, Onboard Service | Staff training & service standards |
-| 4 | Operational Convenience       | Departure/Arrival Time, Gate Location             | Schedule optimization             |
-| 5 | Ground Operations             | Check-in Service (weak factor)                    | Monitor (lower priority)          |
-
-
-***Table***: *Strategic Segment Interpretation*
-
-| Segment                        | Size                        | Key Characteristics                                         | Strategic Priority                           |
-|--------------------------------|----------------------------|-------------------------------------------------------------|---------------------------------------------|
-| Group 1: Young Budget Detractors | 36% of passengers (12% satisfied) | Youngest (30 yrs), shortest flights, LOWEST satisfaction (12%) | 🔴 URGENT: Service recovery & basics        |
-| Group 2: Premium Business Elite   | 28% of passengers (80% satisfied) | Mid-age (45 yrs), longest flights, HIGHEST satisfaction (80%) | 🟢 HIGH: Retention & premium upsell         |
-| Group 3: Middle-Age Price-Conscious | 22% of passengers (25% satisfied) | Oldest (53 yrs), low digital scores, moderate satisfaction (25%) | 🟡 MEDIUM: Digital support & training       |
-| Group 4: Satisfied Frequent Flyers | 14% of passengers (64% satisfied) | Mid-age (41 yrs), balanced profile, good satisfaction (64%) | 🟡 MEDIUM: Maintain & loyalty programs      |
-
----
-
 ### Digital Ad Performance Dashboard
 
 Built an **interactive Streamlit dashboard** analyzing 4.1M+ campaign records (2017) across four social platforms.
@@ -125,9 +81,9 @@ Implementing a strategic retention plan based on these insights could help prote
 
 Analyzed web session data to distinguish between human users and **bot traffic** using transparent, **rule-based logic**. Developed a robust **filtering strategy** based on metadata (e.g., user agents, ASN) and behavioral signals (e.g., clickout frequency, hit volume). Built and refined **KPIs** like *Booking Conversion Rate* and *Clickout Engagement Rate* to evaluate session quality before and after filtering. Delivered a data-driven presentation with **visual and statistical comparisons**, highlighting key insights, uncovering **traffic anomalies** and providing **actionable recommendations** to improve analytics accuracy and tracking quality.
 
-***Skills***: *Python (NumPy, Pandas , Scikit-learn, Matplotlib, Seaborn)*
+***Skills:*** *Python (NumPy, Pandas , Scikit-learn, Matplotlib, Seaborn)*
 
-***Table***: *Comparison of KPIs Before and After Bot Filtering*
+***Table:*** *Comparison of KPIs Before and After Bot Filtering*
 
 | **Metric**                | **Before Filtering** | **Humans (After Filtering)** | **Bots**   |
 |--------------------------|----------------------|------------------------------|------------|
@@ -137,6 +93,50 @@ Analyzed web session data to distinguish between human users and **bot traffic**
 | Bounce Rate (1-hit)      | 23%                  | <span style="color:red">0.1% ↓</span>     | 67.9%  |
 
 *Filtering bot traffic significantly improves the accuracy of user engagement metrics, distinguishing between real user behavior and automated activity.*
+
+---
+
+### Airline Passenger Satisfaction Analysis  
+[View Full Airline Satisfaction Report](pdf/airline_satisfaction_report.html)
+
+**Multivariate Statistical Analysis for Strategic Customer Insights**  
+Analyzed 103,904 airline passenger records to identify satisfaction drivers and actionable customer segments using advanced statistical techniques in R. Transformed 24 raw features into strategic business recommendations.  
+
+**Methods:**  
+- **Exploratory Factor Analysis:** Reduced 14 service metrics to 5 latent dimensions (KMO = 0.92, 67% variance explained).  
+- **Hierarchical Logistic Regression:** Quantified key satisfaction drivers; factor scores improved explanatory power by 38% (Pseudo R² = 0.87).  
+- **K-Means Clustering:** Segmented passengers into 4 profiles with satisfaction rates from 12% to 80%.  
+
+**Key Findings:**  
+- Business travelers are 17.6× more likely to be satisfied.  
+- Digital convenience factor increases satisfaction odds by 2.8×.  
+- 36% of passengers in the crisis segment (12% satisfaction) require urgent intervention.  
+- Identified 3 high-impact service dimensions for strategic prioritization.  
+
+**Business Impact:**  
+Provided segment-specific strategies and monitoring framework, enabling targeted resource allocation. Consolidated 14 KPIs into 5 strategic factors and 4 actionable customer segments.  
+
+***Skills:*** *R, Factor Analysis, Logistic Regression, Clustering, Data Visualization, Statistical Modeling, Large-Scale Data Analysis*  
+
+***Table 1:*** *Top Items by Factor*
+
+| Factor   | Interpretation                | Top Items                                           | Strategic Focus                  |
+|----------|-------------------------------|----------------------------------------------------|----------------------------------|
+| 1 | In-Flight Comfort & Amenities | Cleanliness, Food/Drink, Entertainment, Seat Comfort | Physical product differentiation |
+| 2 | Digital Convenience           | Online Booking, Wifi, Online Boarding             | Digital infrastructure investment |
+| 3 | Service Excellence            | Inflight Service, Baggage Handling, Onboard Service | Staff training & service standards |
+| 4 | Operational Convenience       | Departure/Arrival Time, Gate Location             | Schedule optimization             |
+| 5 | Ground Operations             | Check-in Service (weak factor)                    | Monitor (lower priority)          |
+
+
+***Table 2:*** *Strategic Segment Interpretation*
+
+| Segment                        | Size                        | Key Characteristics                                         | Strategic Priority                           |
+|--------------------------------|----------------------------|-------------------------------------------------------------|---------------------------------------------|
+| Group 1: Young Budget Detractors | 36% of passengers (12% satisfied) | Youngest (30 yrs), shortest flights, LOWEST satisfaction (12%) | 🔴 URGENT: Service recovery & basics        |
+| Group 2: Premium Business Elite   | 28% of passengers (80% satisfied) | Mid-age (45 yrs), longest flights, HIGHEST satisfaction (80%) | 🟢 HIGH: Retention & premium upsell         |
+| Group 3: Middle-Age Price-Conscious | 22% of passengers (25% satisfied) | Oldest (53 yrs), low digital scores, moderate satisfaction (25%) | 🟡 MEDIUM: Digital support & training       |
+| Group 4: Satisfied Frequent Flyers | 14% of passengers (64% satisfied) | Mid-age (41 yrs), balanced profile, good satisfaction (64%) | 🟡 MEDIUM: Maintain & loyalty programs      |
 
 ---
 
@@ -154,7 +154,7 @@ Identifikation physikalisch-chemischer Eigenschaften, die mit hoher Rotweinquali
 ***Ergebnisse:***  
 Hoch bewertete Weine zeichnen sich durch *höheren Alkoholgehalt, niedrige flüchtige Säure, moderate Sulfate und geringes Gesamtschwefeldioxid* aus. Diese Merkmale bilden eine objektive Grundlage für die Sortimentsauswahl.
 
-***Skills***: *Python (pandas, scikit-learn, seaborn), Random Forest, Klassifikation, Feature Importance*
+***Skills:*** *Python (pandas, scikit-learn, seaborn), Random Forest, Klassifikation, Feature Importance*
 
 ![Rotwein](/img/wine.png)
 *Verteilung wichtiger Merkmale nach Weinbewertung (mit 1=nicht gut, 0=gut)*
@@ -183,7 +183,7 @@ Dieses Projekt zielt darauf ab, ein intelligentes Empfehlungssystem für Bücher
 - Analyse der Bücher, die diesen Nutzer:innen gefallen haben  
 - Generierung und Verbesserung der Empfehlungen durch Collaborative Filtering  
 
-***Skills***: *Python (NumPy, Pandas , Scikit-learn, Matplotlib), Text Similarity Analysis, NLP (Tokenization, Tfidf)*
+***Skills:*** *Python (NumPy, Pandas , Scikit-learn, Matplotlib), Text Similarity Analysis, NLP (Tokenization, Tfidf)*
 
 ![BookRecommendations](/img/bookrec.png)
 *Ergebnis von Buch-Empfehlungssystem mit Collaborative Filtering*
