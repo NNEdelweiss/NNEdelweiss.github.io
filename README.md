@@ -28,6 +28,50 @@ This project is a **Retrieval-Augmented Generation (RAG) chatbot** that allows u
 
 ## **Data-Analyst- und Data-Science-Projekte** 
 
+### Airline Passenger Satisfaction Analysis  
+[View Full Airline Satisfaction Report](pdf/airline_satisfaction_report.html)
+
+**Multivariate Statistical Analysis for Strategic Customer Insights**  
+Analyzed 103,904 airline passenger records to identify satisfaction drivers and actionable customer segments using advanced statistical techniques in R. Transformed 24 raw features into strategic business recommendations.  
+
+**Methods:**  
+- **Exploratory Factor Analysis:** Reduced 14 service metrics to 5 latent dimensions (KMO = 0.92, 67% variance explained).  
+- **Hierarchical Logistic Regression:** Quantified key satisfaction drivers; factor scores improved explanatory power by 38% (Pseudo R² = 0.87).  
+- **K-Means Clustering:** Segmented passengers into 4 profiles with satisfaction rates from 12% to 80%.  
+
+**Key Findings:**  
+- Business travelers are 17.6× more likely to be satisfied.  
+- Digital convenience factor increases satisfaction odds by 2.8×.  
+- 36% of passengers in the crisis segment (12% satisfaction) require urgent intervention.  
+- Identified 3 high-impact service dimensions for strategic prioritization.  
+
+**Business Impact:**  
+Provided segment-specific strategies and monitoring framework, enabling targeted resource allocation. Consolidated 14 KPIs into 5 strategic factors and 4 actionable customer segments.  
+
+***Skills***: *R, Factor Analysis, Logistic Regression, Clustering, Data Visualization, Statistical Modeling, Large-Scale Data Analysis*  
+
+**Top Items by Factor**
+
+| Factor   | Interpretation                | Top Items                                           | Strategic Focus                  |
+|----------|-------------------------------|----------------------------------------------------|----------------------------------|
+| Factor 1 | In-Flight Comfort & Amenities | Cleanliness, Food/Drink, Entertainment, Seat Comfort | Physical product differentiation |
+| Factor 2 | Digital Convenience           | Online Booking, Wifi, Online Boarding             | Digital infrastructure investment |
+| Factor 3 | Service Excellence            | Inflight Service, Baggage Handling, Onboard Service | Staff training & service standards |
+| Factor 4 | Operational Convenience       | Departure/Arrival Time, Gate Location             | Schedule optimization             |
+| Factor 5 | Ground Operations             | Check-in Service (weak factor)                    | Monitor (lower priority)          |
+
+
+**Strategic Segment Interpretation**
+
+| Segment                        | Size                        | Key Characteristics                                         | Strategic Priority                           |
+|--------------------------------|----------------------------|-------------------------------------------------------------|---------------------------------------------|
+| Cluster 1: Young Budget Detractors | 36% of passengers (12% satisfied) | Youngest (30 yrs), shortest flights, LOWEST satisfaction (12%) | 🔴 URGENT: Service recovery & basics        |
+| Cluster 2: Premium Business Elite   | 28% of passengers (80% satisfied) | Mid-age (45 yrs), longest flights, HIGHEST satisfaction (80%) | 🟢 HIGH: Retention & premium upsell         |
+| Cluster 3: Middle-Age Price-Conscious | 22% of passengers (25% satisfied) | Oldest (53 yrs), low digital scores, moderate satisfaction (25%) | 🟡 MEDIUM: Digital support & training       |
+| Cluster 4: Satisfied Frequent Flyers | 14% of passengers (64% satisfied) | Mid-age (41 yrs), balanced profile, good satisfaction (64%) | 🟡 MEDIUM: Maintain & loyalty programs      |
+
+---
+
 ### Digital Ad Performance Dashboard
 
 Built an **interactive Streamlit dashboard** analyzing 4.1M+ campaign records (2017) across four social platforms.
