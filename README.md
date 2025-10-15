@@ -50,25 +50,25 @@ Provided segment-specific strategies and monitoring framework, enabling targeted
 
 ***Skills***: *R, Factor Analysis, Logistic Regression, Clustering, Data Visualization, Statistical Modeling, Large-Scale Data Analysis*  
 
-**Top Items by Factor**
+***Table***: *Top Items by Factor*
 
 | Factor   | Interpretation                | Top Items                                           | Strategic Focus                  |
 |----------|-------------------------------|----------------------------------------------------|----------------------------------|
-| Factor 1 | In-Flight Comfort & Amenities | Cleanliness, Food/Drink, Entertainment, Seat Comfort | Physical product differentiation |
-| Factor 2 | Digital Convenience           | Online Booking, Wifi, Online Boarding             | Digital infrastructure investment |
-| Factor 3 | Service Excellence            | Inflight Service, Baggage Handling, Onboard Service | Staff training & service standards |
-| Factor 4 | Operational Convenience       | Departure/Arrival Time, Gate Location             | Schedule optimization             |
-| Factor 5 | Ground Operations             | Check-in Service (weak factor)                    | Monitor (lower priority)          |
+| 1 | In-Flight Comfort & Amenities | Cleanliness, Food/Drink, Entertainment, Seat Comfort | Physical product differentiation |
+| 2 | Digital Convenience           | Online Booking, Wifi, Online Boarding             | Digital infrastructure investment |
+| 3 | Service Excellence            | Inflight Service, Baggage Handling, Onboard Service | Staff training & service standards |
+| 4 | Operational Convenience       | Departure/Arrival Time, Gate Location             | Schedule optimization             |
+| 5 | Ground Operations             | Check-in Service (weak factor)                    | Monitor (lower priority)          |
 
 
-**Strategic Segment Interpretation**
+***Table***: *Strategic Segment Interpretation*
 
 | Segment                        | Size                        | Key Characteristics                                         | Strategic Priority                           |
 |--------------------------------|----------------------------|-------------------------------------------------------------|---------------------------------------------|
-| Cluster 1: Young Budget Detractors | 36% of passengers (12% satisfied) | Youngest (30 yrs), shortest flights, LOWEST satisfaction (12%) | 🔴 URGENT: Service recovery & basics        |
-| Cluster 2: Premium Business Elite   | 28% of passengers (80% satisfied) | Mid-age (45 yrs), longest flights, HIGHEST satisfaction (80%) | 🟢 HIGH: Retention & premium upsell         |
-| Cluster 3: Middle-Age Price-Conscious | 22% of passengers (25% satisfied) | Oldest (53 yrs), low digital scores, moderate satisfaction (25%) | 🟡 MEDIUM: Digital support & training       |
-| Cluster 4: Satisfied Frequent Flyers | 14% of passengers (64% satisfied) | Mid-age (41 yrs), balanced profile, good satisfaction (64%) | 🟡 MEDIUM: Maintain & loyalty programs      |
+| Group 1: Young Budget Detractors | 36% of passengers (12% satisfied) | Youngest (30 yrs), shortest flights, LOWEST satisfaction (12%) | 🔴 URGENT: Service recovery & basics        |
+| Group 2: Premium Business Elite   | 28% of passengers (80% satisfied) | Mid-age (45 yrs), longest flights, HIGHEST satisfaction (80%) | 🟢 HIGH: Retention & premium upsell         |
+| Group 3: Middle-Age Price-Conscious | 22% of passengers (25% satisfied) | Oldest (53 yrs), low digital scores, moderate satisfaction (25%) | 🟡 MEDIUM: Digital support & training       |
+| Group 4: Satisfied Frequent Flyers | 14% of passengers (64% satisfied) | Mid-age (41 yrs), balanced profile, good satisfaction (64%) | 🟡 MEDIUM: Maintain & loyalty programs      |
 
 ---
 
